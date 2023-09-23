@@ -1,0 +1,8 @@
+    1  pwd
+    2  mkdir 5a-sia
+    3  cd 5a-sia/
+    4  ls
+    5  date --iso
+    6  mkdir $(date --iso)
+    7  history
+    8  history > 2023-09-23/esempi.txt
