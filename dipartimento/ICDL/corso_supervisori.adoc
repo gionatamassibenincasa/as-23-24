@@ -1,0 +1,73 @@
+= Test Center ICDL
+
+== Link utili
+
+Procedure Test Center:: https://www.aicanet.it/standard-di-qualita/procedure-per-i-test-center[https://www.aicanet.it/standard-di-qualita/procedure-per-i-test-center]
+Procedure Candidati:: https://www.aicanet.it/standard-di-qualita/procedure-per-il-candidato[https://www.aicanet.it/standard-di-qualita/procedure-per-il-candidato]
+Erogazione esami in remoto::  http://domino.aicanet.it/aica/sessiononline.nsf/login[ttp://domino.aicanet.it/aica/sessiononline.nsf/login]
+Area Riservata Test Center:: http://domino.aicanet.it/aica/accredita.nsf[http://domino.aicanet.it/aica/accredita.nsf]
+ATLAS:: https://download-atlas.aicanet.it/00home/home.html[https://download-atlas.aicanet.it/00home/home.html]
+ATLAS ONLINE:: https://supporto-atlas.aicanet.it/Atlas-Online.html[https://supporto-atlas.aicanet.it/Atlas-Online.html] https://supporto-atlas.aicanet.it/Atlas-Online.html
+AICE:: http://aiceapp.it/[http://aiceapp.it/]
+AICA:: https://www.aicanet.it/[https://www.aicanet.it]
+ICDL Italia:: https://www.ecdl.it/[https://www.ecdl.it/]
+
+== 1 -- Accredia
+
+* Ente italiano di accreditamento in attuazione di un regolamento europeo del 2008.
+* ICDL Full Standard è lo schema di certificazione delle competenze informatiche
+* L'accreditamento è una garanzia tra parti
+* ICDL certifica le persone come **Utente Qualificato di Computer** (Qualified Computer User)
+* Chi vuole avere la certificazione deve sottoscrivere un contratto di certificazione
+* Il responsabile del Test Center deve inserire la sottoscrizione del contratto di certificazione nel sistema Atlas
+* La skills card non scade mai ma gli esami devono essere superati entro 5 anni dalla data di effettuazione del primo esame
+* Il certificato scade dopo 5 anni dalla data di emissione e può essere rinnovato (update)
+
+== 2 -- Il supervisore
+
+* Il Supervisore è la persona abilitata a presidiare una sessione di esami di certificazione in conseguenza di una formale qualificazione da parte di AICA
+* È responsabile dell'organizzazione e della gestione della sessione di esami, dell'organizzazione tecnica degli esami automatici di certificazione, della sorveglianza (controllo della regolarità del loro svolgimento) e del supporto tecnico ai candidati
+* Un esaminatore deve firmare una dichiarazione sull'assenza di conflitti di interesse
+* Deve essere **scrupoloso** nella conoscenza e applicazione delle procedure AICA.
+* Deve essere **attento** nei compiti di sorveglianza
+* Deve essere **severo** nei confronti dei candidati che non rispettano quanto previsto dalle procedure
+* Deve essere **fermo** nei confronti di pressioni esterne
+* Si deve attenere ad un **codice di condotta**:
+. Obbligo della **sorveglianza**
+. **Non interferenza** sull'esito degli esami
+
+== Approntamento delle postazioni
+
+. Provvedere all'approntamento delle postazioni di esami e del server del sistema ATES
+. Prima dell'inizio di ogni sessione di esami
+.. verificare il corretto funzionamento e la corretta configurazione delle attrezzature informatiche
+.. verificare corretta installazione componenti sistema ATES
+.. verificare che firewall e antivirus non interferiscano
+.. verificare distanza (almeno 80 cm) o sistema di separazione per ridurre rischi di interazione tra candidati
+. verificare che le postazioni siano libere da qualunque documentazione
+
+== 4 -- Operazioni preliminari per l'accesso dei candidati
+
+. Abilitazione delle postazioni di esame
+.. accendere i PC
+.. loggarsi
+.. avviare il software ATES nella postazione docente e in quelle abilitate ai candidati
+.. andare sulla schermata di login
+. Compilazione del **registro esami**
+.. Tutti i supervisiori firmano il registro stampato
+.. Tutti i candidati presenti firmano il registro stampato
+. Stampa del **verbale sessione di esami**
+.. deve essere stampato contestualmente al registro esami
+.. tutte le anomalie devono essere annotate
+. Riconoscimento formale dei candidati
+.. prima dell'accesso alla postazione il candidato deve essere riconosciuto mediante un documento di identità
+.. se il candidato non ha un documento di identità può essere riconosciuto da due persone maggiorenni. In tal caso sul verbale della sessione devono essere registrati gli estremi dei documenti delle due persone maggiorenni e il motivo per il quale il supervisore ha valutato ammissibile il riconoscimento
+.. il riconoscimento può essere delegato a personale di segreteria
+.. gli estremi del documento sono annotati nel registro esami
+.. il candidato firma il registro esami
+. Comunicazione password d'accesso al sistema ATES
+.. Prima dell'inizio della prima prova il supervisore comunica privatamente i dati di accesso
+. Illustrazione della metodologia di esami
+.. norme per i candidati, da far sottoscrivere
+.. tutorial messi a disposizione da AICA
+ .. il tutorial deve essere eseguito necessariamente anche il giorno precedente quello della prova di esame
