@@ -36,6 +36,85 @@ ICDL Italia:: https://www.ecdl.it/[https://www.ecdl.it/]
 . Obbligo della **sorveglianza**
 . **Non interferenza** sull'esito degli esami
 
+=== Quiz
+
+====
+. La principale qualità di un Supervisore consiste nella conoscenza approfondita del sistema di erogazione automatica degli esami (ATES).
+
+* [ ] Vero
+* [X] Falso
+
+. Tra le qualità principali di un Supervisore vi è la scrupolosa conoscenza delle norme previste da AICA.
+
+* [X] Vero
+* [ ] Falso
+
+. Il Docente che prepara gli studenti agli esami di certificazione deve conoscere le procedure di esame ECDL.
+
+* [ ] Vero
+* [X] Falso
+
+. Gli esami sostenuti ai fini della certificazione ECDL Full Standard, saranno considerati validi per il Supervisore solo se svolti presso un Test Center con una Ragione sociale diversa da quella del Test Center dove presta il suo operato.
+
+* [X] Vero
+* [ ] Falso
+
+. Docente e Supervisore devono essere soggetti distinti
+
+* [ ] Vero
+* [X] Falso
+
+. Il Supervisore si fa garante presso AICA del corretto comportamento tenuto dal Candidato.
+
+* [X] Vero
+* [ ] Falso
+
+. Il Supervisore non deve mai interferire sull’esito degli esami.
+
+* [X] Vero
+* [ ] Falso
+
+. Il Supervisore che ha rivestito il ruolo di Docente per i Candidati deve almeno mentalmente mantenere una netta distinzione tra le due attività.
+
+* [X] Vero
+* [ ] Falso
+
+. E’ sempre preferibile che il ruolo di Docente rimanga distinto da quello di Supervisore.
+
+* [X] Vero
+* [ ] Falso
+
+. Per garantire l’oggettività dell’esito dell’esame Il Supervisore deve far sì che il Candidato affronti la prova senza aiuti esterni di nessun tipo.
+
+* [X] Vero
+* [ ] Falso
+
+. Per ogni sessione al Supervisore viene richiesta una Dichiarazione di assenza di conflitto di interessi ai sensi della norma ISO17024
+
+* [ ] Vero
+* [X] Falso
+
+. Un buon Supervisore è consapevole di dover in primo luogo garantire l’oggettività dell’esito degli esami.
+
+* [X] Vero
+* [ ] Falso
+
+. Il ruolo del Supervisore AICA si caratterizza per il particolare codice di condotta.
+
+* [X] Vero
+* [ ] Falso
+
+. Il ruolo di Supervisore prevede il rispetto di uno specifico codice di comportamento.
+
+* [X] Vero
+* [ ] Falso
+
+. Durante la sessione di esami, il Supervisore che ha svolto il ruolo di Docente può fare precisazioni su aspetti trascurati nella attività formativa.
+
+* [ ] Vero
+* [X] Falso
+====
+
 == Approntamento delle postazioni
 
 . Provvedere all'approntamento delle postazioni di esami e del server del sistema ATES
@@ -45,6 +124,60 @@ ICDL Italia:: https://www.ecdl.it/[https://www.ecdl.it/]
 .. verificare che firewall e antivirus non interferiscano
 .. verificare distanza (almeno 80 cm) o sistema di separazione per ridurre rischi di interazione tra candidati
 . verificare che le postazioni siano libere da qualunque documentazione
+
+====
+
+. La corretta distanza tra le postazioni deve essere controllata dal Supervisore nel momento in cui vengono assegnate ai candidati
+
+* [ ] Vero
+* [X] Falso
+
+. Prima che la sessione abbia inizio occorre accertarsi che altri software installati non interferiscano con il corretto funzionamento del sistema ATES (es. firewall
+o antivirus)
+
+* [X] Vero
+* [ ] Falso
+
+. Prima che la sessione abbia inizio il Supervisore deve rimuovere dalle postazioni l’eventuale documentazione che non appartiene al Test Center.
+
+* [ ] Vero
+* [X] Falso
+
+. Prima che la sessione abbia inizio il Supervisore deve verificare il corretto funzionamento delle postazioni messe a disposizione dei candidati.
+
+* [X] Vero
+* [ ] Falso
+
+. Per un efficace servizio di certificazione il Test Center, quando lo ritiene necessario, deve provvedere all’approntamento delle postazioni di esame
+
+* [ ] Vero
+* [X] Falso
+
+. L’approntamento delle postazioni può essere delegata al tecnico di laboratorio, che se ne assume la piena responsabilità
+
+* [ ] Vero
+* [X] Falso
+
+. Prima che la sessione abbia inizio il Supervisore deve verificare la corretta distanza tra le postazioni messe a disposizione dei candidati.
+
+* [X] Vero
+* [ ] Falso
+
+. La disposizione a scacchiera delle postazioni può essere adottata stabilmente quando consente l’utilizzo del numero minimo previsto di PC
+
+* [X] Vero
+* [ ] Falso
+
+. L’interposizione di divisori tra le postazioni è consigliato ai fini della privacy dei candidati
+
+* [ ] Vero
+* [X] Falso
+
+. Nelle postazioni utilizzare per gli esami di certificazione deve essere installato solamente il software ATES
+
+* [ ] Vero
+* [X] Falso
+====
 
 == 4 -- Operazioni preliminari per l'accesso dei candidati
 
@@ -71,3 +204,84 @@ ICDL Italia:: https://www.ecdl.it/[https://www.ecdl.it/]
 .. norme per i candidati, da far sottoscrivere
 .. tutorial messi a disposizione da AICA
  .. il tutorial deve essere eseguito necessariamente anche il giorno precedente quello della prova di esame
+
+====
+
+. Una illustrazione delle modalità di svolgimento degli esami ECDL da parte del Supervisore, favorisce un corretto svolgimento della sessione.
+
+
+* [X] Vero
+* [ ] Falso
+
+. Il riconoscimento formale del Candidato può essere effettuato da altro personale del Test Center purché il Supervisore affianchi la persona incaricata durante tale operazione.
+
+* [ ] Vero
+* [X] Falso
+
+. Il Supervisore che presiede la sessione al termine dell’erogazione degli esami ECDL dovrà provvedere alla compilazione esaustiva del Registro Esami.
+
+* [ ] Vero
+* [X] Falso
+
+. Ciascun Candidato deve firmare il registro Esami in corrispondenza dei propri dati identificativi, nel caso in cui intenda accettare l’esito conseguito nell’esame sostenuto.
+
+* [ ] Vero
+* [X] Falso
+
+. Il Supervisore che dichiara nel Registro Esami di presiedere la Sessione, è responsabile dell’autenticità di quanto riportato nel documento
+
+
+* [X] Vero
+* [ ] Falso
+
+. Prima di assegnare la postazione al candidato, il Supervisore deve avviare il software ATES, predisponendolo sulla schermata di login.
+
+* [X] Vero
+* [ ] Falso
+
+. Il Registro Esami deve essere firmato dai Supervisori presenti e da tutti i Candidati che hanno sostenuto esami
+
+* [X] Vero
+* [ ] Falso
+
+. Il Tutorial illustra al Candidato la metodologia e le modalità di svolgimento delle prove di esame.
+
+
+* [X] Vero
+* [ ] Falso
+
+. Nel Verbale di sessione debbono essere annotate tutte le anomalie degne di nota, che si sono verificate durante la sessione
+
+* [X] Vero
+* [ ] Falso
+
+. Il Supervisore deve informare i candidati dell’importanza delle norme che regolano lo svolgimento degli esami che devono essere da questi sottoscritte.
+
+* [X] Vero
+* [ ] Falso
+
+. Il riconoscimento formale del candidato può avvenire anche per conoscenza personale del Supervisore (ad esempio, alunno interno)
+
+* [ ] Vero
+* [X] Falso
+
+. Per ogni aula utilizzata per lo svolgimento degli esami ECDL deve essere predisposto uno specifico Registro Esami.
+
+* [X] Vero
+* [ ] Falso
+
+. Prima dell’inizio della prima prova d’esame il Supervisore comunicherà privatamente a ciascun candidato i dati di login necessari per accedere al sistema ATES.
+
+* [X] Vero
+* [ ] Falso
+
+. Nessun Candidato può iniziare la prima prova di esame ECDL di una sessione senza essere stato preventivamente identificato formalmente.
+
+* [X] Vero
+* [ ] Falso
+
+. Il riconoscimento formale del Candidato deve avvenire tramite apposito documento che ne attesti l’identità.
+
+* [X] Vero
+* [ ] Falso
+====
