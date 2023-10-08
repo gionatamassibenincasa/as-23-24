@@ -481,3 +481,358 @@ o antivirus)
 * [X] Vero
 * [ ] Falso
 ====
+
+== 7--
+
+====
+. Prima dell’inizio della prima prova d’esame, il Supervisore provvederà a consegnare a ciascun Candidato la stampa delle domande, rendendo disponibili i relativi file da elaborare.
+
+* [X] Vero
+* [ ] Falso
+
+. Per predisporre le prove di esami manuali, il Supervisore deve utilizzare l’ultima versione del MQTB relativo ai moduli della certificazione erogata.
+
+* [X] Vero
+* [ ] Falso
+
+. Per le certificazioni erogate in modalità manuale esistono due categorie di Supervisori: gli operativi, in grado di gestire solo le sessioni d’esame; i correttori (Esaminatori), in grado di svolgere anche la valutazione delle prove di esame.
+
+* [X] Vero
+* [ ] Falso
+
+. MQTB (Manual Question And Test Base), l’eserciziario utilizzato per una determinata certificazione, è reperibile dai Candidati sul sito web di AICA.
+
+* [ ] Vero
+* [X] Falso
+
+. Le prove di esame con modalità di svolgimento manuale devono essere prelevate dal Supervisore nell'area riservata al Test Center e quindi predisposte per ogni Candidato.
+
+* [X] Vero
+* [ ] Falso
+
+. Entro l’orario previsto, i Candidati devono restituire al Supervisore gli elaborati delle prove d’esame, seguendo le modalità specificate al momento della consegna.
+
+* [X] Vero
+* [ ] Falso
+
+. Per garantire la riservatezza delle domande di esame è fatto obbligo al Supervisore di far sottoscrivere a ogni Candidato l’impegno a conservare adeguatamente il materiale di esame che gli è stato consegnato.
+
+* [ ] Vero
+* [X] Falso
+
+. La valutazione centralizzata è un servizio offerto da AICA ai Test Center che hanno ricevuto un ricorso sull’esito della prova di esame da parte del Candidato che l’ha sostenuta.
+
+* [ ] Vero
+* [X] Falso
+
+. Per consentire al Supervisore il controllo del tempo, tutti i Candidati devono consegnare alla stessa ora le prove relative a un determinato modulo di esame.
+
+* [ ] Vero
+* [X] Falso
+
+. Il Supervisore, per ciascun Candidato, deve stampare le domande della prova di esame e predisporre i relativi file da elaborare almeno un giorno prima di quello previsto per la sessione.
+
+* [ ] Vero
+* [X] Falso
+
+. Il Supervisore deve effettuare le attività di preparazione delle prove di esami manuali almeno 5 giorni prima della data prevista per la sessione.
+
+* [ ] Vero
+* [X] Falso
+
+. Gli Associati dei Capofila autorizzati effettuano la richiesta di valutazione centralizzata al proprio Capofila, secondo le modalità definite da quest’ultimo.
+
+* [X] Vero
+* [ ] Falso
+
+. Il Supervisore deve predisporre le prove di esame scegliendo tra quelle messe a disposizione dall’MQTB, avendo cura di variarle allo scopo di dare il più possibile compiti diversi ai Candidati.
+
+* [X] Vero
+* [ ] Falso
+
+. Le prove di esame da assegnare ai Candidati, vengono recapitate nella casella e-mail del Test Center il giorno antecedente quello previsto per la sessione.
+
+* [ ] Vero
+* [X] Falso
+
+. MQTB (Manual Question And Test Base), di proprietà di AICA, non è di dominio pubblico e deve quindi essere conservato dal Test Center con la massima cura e riservatezza.
+
+* [X] Vero
+* [ ] Falso
+====
+
+== 8 -- Esaminatori
+
+====
+. Gli Esaminatori certificati del Test Center, per valutare le prove di esame devono utilizzare apposite griglie di valutazione messe a disposizione da AICA per ciascun modulo di esame.
+
+* [X] Vero
+* [ ] Falso
+
+. I file elaborati dai Candidati nel corso delle prove di esame e le relative griglie di valutazione, compilate dall’Esaminatore devono essere conservate dal Test Center fino all’avvenuta registrazione degli esiti nel sistema ATES.
+
+* [ ] Vero
+* [X] Falso
+
+. Per la riservatezza delle domande di esame, le griglie di valutazione possono essere solo mostrate, in privato, ai Candidati che abbiano fatto una richiesta di chiarimento in merito all’esito degli esami.
+
+* [ ] Vero
+* [X] Falso
+
+. L’Esaminatore provvederà alla valutazione di tutte le prove di esame effettuate, entro il termine massimo di 20 giorni lavorativi.
+
+* [X] Vero
+* [ ] Falso
+
+. Per una specifica certificazione, la qualificazione di un Supervisore alla correzione di esami manuali può essere conseguente a una formale certificazione da parte di AICA.
+
+* [X] Vero
+* [ ] Falso
+
+. La valutazione delle prove di esame effettuate dai Candidati è di competenza esclusiva di AICA, che opera attraverso i propri Supervisori.
+
+* [ ] Vero
+* [X] Falso
+
+====
+
+== 09 - RESPONSABILE - CONFORMITA E OBBLIGHI DEL TEST CENTER
+
+No test
+
+== 10 - RESPONSABILE - Gestione sessione
+
+====
+. La registrazione delle sessioni di esami ECDL nel sistema ATES viene effettuata sotto la responsabilità del Responsabile ECDL.
+
+* [X] Vero
+* [ ] Falso
+
+. Una sessione di esami ECDL tenuta in una data e in un orario non registrati preventivamente nel sistema ATES, viene dichiarata nulla da AICA.
+
+* [X] Vero
+* [ ] Falso
+
+. Nel caso in cui non fosse possibile provvedere in tempo utile all’annullamento di una sessione di esami ECDL attraverso il sistema ATES, il Supervisore o il Responsabile ECDL devono garantire la loro tempestiva reperibilità presso il Test Center.
+
+* [X] Vero
+* [ ] Falso
+
+. Una sessione di esami ECDL può essere annullata servendosi del sistema ATES entro il giorno prima della data prevista per lo svolgimento.
+
+* [X] Vero
+* [ ] Falso
+
+. Il Responsabile ECDL ha l’esclusiva responsabilità di verificare la corretta registrazione della sessione di esami nel sistema ATES prima che il Supervisore dia il via all’erogazione delle prove.
+
+* [ ] Vero
+* [X] Falso
+
+. Il numero di sessioni di esame che il Test Center può registrare rispettando i vincoli previsti per la tipologia “straordinaria”, è illimitato.
+
+* [X] Vero
+* [ ] Falso
+
+. La tipologia di sessione di esami ECDL  “ordinaria” prevede la partecipazione di candidati che in precedenza hanno già sostenuto altri esami.
+
+* [ ] Vero
+* [X] Falso
+
+. Il numero di sessioni di esami ECDL “ordinarie” è di 4 al mese purché si rispetti il vincolo di un intervallo minimo di 5 giorni lavorativi tra le due date.
+
+* [ ] Vero
+* [X] Falso
+
+. La registrazione di una sessione di esami ECDL nel sistema ATES deve avvenire con almeno 15 giorni di anticipo rispetto alla data prevista per lo svolgimento.
+
+* [ ] Vero
+* [X] Falso
+
+. La Skills Card virtuale viene messa a disposizione del Test center dal sistema informatico ATES.
+
+* [X] Vero
+* [ ] Falso
+
+. La Skills Card virtuale è una scheda digitale in cui sono registrati i dati anagrafici dell’intestatario e i dati relativi agli esami sostenuti.
+
+* [X] Vero
+* [ ] Falso
+
+. Una sessione di esami ECDL può essere effettuata solo se preventivamente comunicata ad AICA attraverso una registrazione nel sistema ATES.
+
+* [X] Vero
+* [ ] Falso
+
+. Una sessione di esami ECDL non può essere effettuata in un giorno festivo.
+
+* [X] Vero
+* [ ] Falso
+
+. Sono sufficienti 5 giorni lavorativi di anticipo per ordinare Skills Card e esami ad AICA.
+
+* [X] Vero
+* [ ] Falso
+
+. Il trattamento dei dati relativi all’intestatario della Skills Card è regolato dalle disposizioni in materia di Privacy.
+
+* [X] Vero
+* [ ] Falso
+
+. La sessione di esame “straordinaria” prevede un numero minimo di iscritti o di esami.
+
+* [X] Vero
+* [ ] Falso
+
+. La registrazione di una sessione di esami ECDL che deve svolgersi il giorno 10 maggio, deve avvenire entro il giorno 8 dello stesso mese.
+
+* [X] Vero
+* [ ] Falso
+
+. Entro il giorno precedente quello previsto per lo svolgimento della sessione di esami ECDL, è possibile variarne il numero previsto d’iscritti e di esami.
+
+* [X] Vero
+* [ ] Falso
+
+. Nei casi di reale emergenza, il Test Center può eccezionalmente cancellare la sessione il giorno stesso in cui ne era previsto lo svolgimento, dandone comunicazione ai Candidati.
+
+* [ ] Vero
+* [X] Falso
+
+. Una differenza tra la tipologia di sessione di esami ECDL “ordinaria” e quella “straordinaria” consiste nel numero minimo di candidati o esami previsti.
+
+* [X] Vero
+* [ ] Falso
+
+. E’ possibile prenotare una sessione “straordinaria” senza averne, per lo stesso mese, richiesta una “ordinaria”.
+
+* [X] Vero
+* [ ] Falso
+
+. La registrazione delle sessioni di esami ECDL nel sistema ATES deve essere effettuata dal Legale Rappresentante del Test Center.
+
+* [ ] Vero
+* [X] Falso
+
+. Per tutte le Certificazioni accreditate da Accredia il Test Center registrerà nel sistema ATES la Domanda di Certificazione sottoscritta in forma cartacea, entro l’ultimo esame previsto.
+
+* [X] Vero
+* [ ] Falso
+
+. Per effettuare una sessione di esami ECDL il Test Center deve darne preventiva comunicazione scritta ad AICA.
+
+* [ ] Vero
+* [X] Falso
+
+. Il Test Center che vende la Skills Card deve registrare nel database centrale di AICA i dati anagrafici completi della persona a cui viene intestata.
+
+* [X] Vero
+* [ ] Falso
+
+====
+
+== 11
+
+== 12 -- Audit
+
+====
+. Tutte le sessioni di esame registrate da un Test Center qualificato da AICA possono essere oggetto di Audit “senza preavviso”.
+
+* [X] Vero
+* [ ] Falso
+
+. Le Procedure AICA si ispirano alle norme internazionali relative alla gestione della Qualità.
+
+* [X] Vero
+* [ ] Falso
+
+. In un Audit “senza preavviso”, ad esami in corso, l’Ispettore incaricato deve concludere le attività nel tempo necessario allo svolgimento delle prove di esame.
+
+* [ ] Vero
+* [X] Falso
+
+. L’Audit “concordato” consente al Test Center la scelta dell’Ispettore al quale deve essere conferito l’incarico.
+
+* [ ] Vero
+* [X] Falso
+
+. Al termine dell’Audit, l’Auditor incaricato redige un apposito documento sul quale riporta gli esiti delle attività svolte, consegnandone copia al Test Center.
+
+* [X] Vero
+* [ ] Falso
+
+. Per “non conformità” si intende la mancanza di un requisito o un comportamento non conforme alle Procedure AICA.
+
+* [X] Vero
+* [ ] Falso
+
+. E’ facoltà del Legale Rappresentante del Test Center presenziare alle attività di Audit “concordato”.
+
+* [ ] Vero
+* [X] Falso
+
+. L’Ispettore incaricato di un Audit “senza preavviso”, presso il Test Center deve avere in visione tutta la documentazione di cui ha fatto preventiva richiesta allo stesso Test Center.
+
+* [ ] Vero
+* [X] Falso
+
+. Per una buona riuscita dell’Audit, è sufficiente che il Supervisore fornisca all’Auditor tutta la documentazione che questi gli richiede. 
+
+* [ ] Vero
+* [X] Falso
+
+. L’Audit senza preavviso ha per oggetto primario la verifica dei comportamenti obbligatori relativi allo svolgimento degli esami
+
+* [X] Vero
+* [ ] Falso
+
+. L’Audit viene effettuato da AICA allo scopo di verificare il trattamento riservato ai propri clienti da parte del Test Center.
+
+* [ ] Vero
+* [X] Falso
+
+. L’Audit “senza preavviso”, ad esami incorso, prevede che l’incontro tra l’Ispettore incaricato e il Responsabile del Test Center avvenga senza appuntamento.
+
+* [ ] Vero
+* [X] Falso
+
+. Nel caso in cui l’Ispettore incaricato dell’Audit rilevi problematiche di particolari gravità, ne dà comunicazione ad AICA mediante la compilazione di un apposito verbale.
+
+* [ ] Vero
+* [X] Falso
+
+. L’Audit viene effettuato da AICA presso il Test Center al fine verificare il rispetto dei comportamenti e dei requisiti previsti dai documenti contrattuali.
+
+* [X] Vero
+* [ ] Falso
+
+. L’Audit "concordato" deve di norma concludersi entro l’orario concordato tra l’Auditor e il Test Center.
+
+* [X] Vero
+* [ ] Falso
+
+. Il Test Center deve far pervenire ad AICA la “azione correttiva”, tramite l’Auditor, entro e non oltre 15 gg dalla data in cui si è svolto l’Audit
+
+* [X] Vero
+* [ ] Falso
+
+. La "Raccomandazione" rappresenta una opportunità di miglioramento rilevata durante l’Audit la cui mancanza non si configura però come Non Conformità
+
+* [X] Vero
+* [ ] Falso
+
+. La Procedura di Audit specifica a quale documentazione l’Auditor incaricato deve avere accesso presso il Test Center.
+
+* [X] Vero
+* [ ] Falso
+
+. Gli esiti dell’Audit vengono pubblicati sul sito web di AICA al fine di garantire la massima trasparenza sulle modalità di conduzione del servizio di certificazione.
+
+* [ ] Vero
+* [X] Falso
+
+. L’Audit “concordato” prevede che l’incontro tra l’Auditor incaricato e il Responsabile del Test Center avvenga previo appuntamento.
+
+* [X] Vero
+* [ ] Falso
+
+====
