@@ -285,3 +285,199 @@ o antivirus)
 * [X] Vero
 * [ ] Falso
 ====
+
+
+== 5 -- Norme per supervisiori e candidati
+
+* Obblighi del supervisiore per oggettività e imparzialità
+** sorveglianza della sessione di esami
+*** il supervisore non deve svolgere altre attività durante la sorveglianza
+*** il supervisore non deve arrecare disturbo ai candidati
+** gestione della sessione di esami
+*** divieto di interrompere la sorveglianza degli esami in corso
+*** possibilità di dividere la sessione in turni
+*** obbligo di rimanere presso il Test Center
+** divieto di assistere i candidati nella soluzione dei quesiti
+*** divieto di rispondere alle domande dei candidati
+*** permesso di intervento solo per problemi di operatività
+** rispetto dell'orario
+*** prove iniziate prima dell'inizio o terminate dopo l'orario di fine sono invalide
+* Obblighi dei candidati
+** obbligo di sottoscrizione del documento di assunzione di responsabilità
+** obbligo di esecuzione del Tutorial
+** soglia di superamento della prova d'esame
+*** il candidato può richiedere l'annullamento della prova se non soddisfatto della valutazione
+** rispetto dei limiti di tempo
+** obbligo del silenzio
+*** non parlare tra candidati
+*** non ragionare ad alta voce
+*** non rivolgere domande al supervisore se non per problemi di operatività
+** divieto di supporti esterni
+*** non copiare da altri candidati
+*** non deve copiare da materiale cartaceo
+*** non deve usare cellulari, tablet, radio o altri dispositivi elettronici
+** permanenza in aula
+*** il candidato permane in aula solo per il riconoscimento, lo svolgimento delle prove, la comunicazione dell'esito
+** divieto di interruzione della prova
+** divieto di ripetizione di un esame nella stessa giornata
+** Divieto di assistere i candidati nella soluzione dei quesiti
+** Controllo dell'ora di inizio e di fine
+
+====
+. Il Supervisore dovrà astenersi dal fornire al Candidato qualsiasi delucidazione sulle domande che costituiscono la prova di esame ECDL.
+
+* [X] Vero
+* [ ] Falso
+
+. Ciascun candidato prima di affrontare la prima prova di esame deve prendere visione ed accettare le norme relative allo svolgimento degli esami
+
+* [X] Vero
+* [ ] Falso
+
+. Il Candidato può rimanere in aula una volta completate le prove di esame a condizione che non arrechi disturbo agli altri 
+
+* [ ] Vero
+* [X] Falso
+
+. Con un solo Supervisore in aula, la comunicazione al Candidato dell’esito della prova di esame rappresenta il momento favorevole per procedere alla revisione delle domande errate.
+
+* [ ] Vero
+* [X] Falso
+
+. Scopo della sorveglianza effettuata dal Supervisore durante lo svolgimento di esami ECDL è evitare la presenza di persone che possano risultare estranee al Test Center o ai Candidati.
+
+* [ ] Vero
+* [X] Falso
+
+. Senza la presenza di almeno un Supervisore qualificato da AICA, la sessione di esami deve essere annullata o interrotta.
+
+* [X] Vero
+* [ ] Falso
+
+. Il Supervisore può comunicare al Candidato l’esito dopo ogni singola prova solo se ciò è compatibile con le esigenze di sorveglianza della sessione di esami.
+
+* [X] Vero
+* [ ] Falso
+
+. Durante lo svolgimento di una prova di esame ECDL, il Supervisore non può intervenire su richiesta del Candidato neppure in caso di problemi connessi all’operatività della postazione.
+
+* [ ] Vero
+* [X] Falso
+
+. Tra gli obblighi che il Candidato sottoscrive di rispettare durante lo svolgimento di una prova di esame ECDL, vi è quello del limite di tempo concesso per quell’esame.
+
+* [X] Vero
+* [ ] Falso
+
+. Se il Supervisore incaricato di presiedere la sessione di esami ECDL non può essere presente, il Test Center deve tempestivamente richiedere l’intervento dell’Ispettore AICA.
+
+* [ ] Vero
+* [X] Falso
+
+. Per una migliore riuscita di una sessione di esami ECDL è opportuno che il Test Center pianifichi l’ingresso dei Candidati per turni.
+
+* [X] Vero
+* [] Falso
+
+. Al Supervisore è fatto obbligo di rispettare integralmente i comportamenti previsti dalla pertinente Procedura AICA.
+
+* [X] Vero
+* [ ] Falso
+
+. Il Supervisore non deve in nessun caso interferire con il Candidato durante lo svolgimento di una prova di esame ECDL.
+
+* [X] Vero
+* [ ]Falso
+
+. Il Candidato che ha fallito una prova di esame non può ripeterla nello stesso giorno, a meno che ciò non avvenga presso un diverso Test Center.
+
+* [ ] Vero
+* [X] Falso
+
+. Il divieto di parlare e fare rumore facilità la possibilità per i Candidati di concentrarsi sulla propria prova di esame.
+
+* [X] Vero
+* [ ] Falso
+====
+
+== 6. 
+
+====
+. Qualora il Candidato rimanga insoddisfatto dell’esito della prova di esame deve presentare ricorso ad AICA
+
+* [ ] Vero
+* [X] Falso
+
+. Entro 15 gg dalla data in cui ha sostenuto l’esame, il candidato può richiedere chiarimenti in merito alle domande a cui non ha fornito una risposta corretta.
+
+* [X] Vero
+* [ ] Falso
+
+. Il Test Center comunicherà via mail al candidato, entro 15 gg, l’esito delle prove di esame
+
+* [ ] Vero
+* [X] Falso
+
+. Nel caso in cui il candidato voglia ripetere l’esame superato, deve iscriversi ad una sessione presso un diverso Test Center
+
+* [ ] Vero
+* [X] Falso
+
+. In argomento alle prove di esame ECDL, l’esito di un ricorso inoltrato dal Test Center verrà reso noto da AICA all’interessato prima che questi concluda il percorso di certificazione.
+
+
+* [ ] Vero
+* [X] Falso
+
+. Una volta superate tutte le prove di esame, entro 15gg il Candidato deve inoltrare istanza scritta ad AICA per il rilascio della relativa certificazione.
+
+
+* [ ] Vero
+* [X] Falso
+
+
+. In assenza di registrazione via Internet degli esami, il Supervisore può richiedere ad AICA via mail il rilascio del certificato
+
+* [ ] Vero
+* [X] Falso
+
+. La registrazione degli esami può anche avvenire inviando ad AICA un prospetto cartaceo dei risultati conseguiti dai Candidati, sottoscritto dal legale Rappresentante.
+
+* [ ] Vero
+* [X] Falso
+
+. Per la riservatezza delle domande di esame, la correzione delle domande errate a favore del Candidato può essere effettuata in presenza di altri Candidati solo se questi hanno già superato lo stesso esame.
+
+* [ ] Vero
+* [X] Falso
+
+. La registrazione degli esami tramite sincronizzazione via Internet deve essere effettuata non oltre 5 giorni dalla data della sessione.
+
+* [X] Vero
+* [ ] Falso
+
+. Una volta terminata la sessione di esami ECDL, il Supervisore provvede a registrare via Internet (sincronizzazione) i risultati delle prove di esame sul database di AICA
+
+* [X] Vero
+* [ ] Falso
+
+. In argomento alle prove di esame ECDL, le circostanze e le motivazioni che rendono ammissibile un ricorso ad AICA da parte del Test Center sono esplicitate in apposite istruzioni operative.
+
+* [X] Vero
+* [ ] Falso
+
+. Non appena completata la valutazione automatica di tutti gli esami sostenuti, e comunque entro la fine della sessione, al candidato devono essere comunicati gli esiti riservatamente.
+
+* [X] Vero
+* [ ] Falso
+
+. Al termine di ogni sessione sarà cura di AICA comunicare al Test Center eventuali anomalie intervenute nella sincronizzazione dati con il database centralizzato.
+
+* [ ] Vero
+* [X] Falso
+
+. E’ compito del Supervisore, riservatamente, fornire a ciascun Candidato che ne faccia richiesta chiarimenti in merito alle domande errate, servendosi dell’apposita funzionalità disponibile nel sistema ATES.
+
+* [X] Vero
+* [ ] Falso
+====
