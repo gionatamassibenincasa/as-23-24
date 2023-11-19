@@ -1,0 +1,74 @@
+nwdiag {
+  Rete_esterna [shape = cloud desccription="Internet"];
+  Rete_esterna -- gateway;
+  
+  network Altre_ICDL {
+      color="#FFCCCC";
+      width="full";
+      description="Dorsale\nIstituto";
+      address="192.168.0.0/23";
+      gateway [address="192.168.1.5" shape="node" description="<&cog*3>\nGW"];
+      dns [address="192.168.1.3" shape="node" description="<&cog*3>\nDNS"];
+      ad [shape="node" description="<&cog*3>\n AD"];
+      serverICDL [shape="node" description="<&cog*3>\nICDL"];
+      FSF  [address="192.168.1.254"];
+    }
+    
+    group nuovo {
+      description="Nodi nuovi";
+      color="#00FFFF";
+      FSF;
+    }
+  
+    network Lab_FL {
+      color="#FFAAFF"
+      width="full";
+      address="192.168.4.x/24"
+      description="FutureLAB\nLAN+WLAN"
+  
+      FSF  [address="192.168.4.254" shape="node" description="    <&cog*3>\n   Terminal\n  Server\nFutureLab"];
+      group F_Cabled {
+        description="Rete cablata"
+        color="#FFAAFF"
+        
+        doc_F [address="192.168.4.100/24" description="<&monitor*3>\nINS"];
+      }  
+      
+      group F_WiFi {
+        description="Rete WiFi"
+        color="#FFCCFF"
+        
+        WiFi_Fy [address="192.168.f.(150 + y)/24" description="<&wifi*3>\n Fy"];
+      }
+  }
+
+  switch6;
+
+  switch1;
+  switch2;
+  switch3;
+  switch4;
+  switch5;
+
+  switch6 -- switch1;
+  switch6 -- switch2;
+  switch6 -- switch3;
+  switch6 -- switch4;
+  switch6 -- switch5;
+  printer_F1 [address="192.168.4.253/24" description="<&print*3>\n PF1"];
+  printer_F2 [address="192.168.4.254/24" description="<&spreadsheet*3>\n NAS"];
+
+        pc_F1  [address="192.168.4.10/24" description="<&person*3>\nRPi1"];
+        pc_F2  [address="192.168.4.11/24" description="<&person*3>\nRPi2"];
+        pc_F3  [address="192.168.4.12/24" description="<&person*3>\nRPi3"];
+        pc_F4  [address="192.168.4.13/24" description="<&person*3>\nRPi4"];
+        pc_F5  [address="192.168.4.14/24" description="<&person*3>\nRPi5"];
+        pc_F6  [address="192.168.4.15/24" description="<&person*3>\nPRPi6"];
+        switch1 -- pc_F1;
+        switch1 -- pc_F2;
+        switch1 -- pc_F3;
+        switch1 -- pc_F4;
+        switch1 -- pc_F5;
+        switch1 -- pc_F6;
+
+}

@@ -1,0 +1,22 @@
+gantt
+    dateFormat  YYYY-MM-DD
+    title       Aggiornamento del Laboratorio di Informatica
+    excludes    sunday
+    %% (`excludes` accepts specific dates in YYYY-MM-DD format, days of the week ("sunday") or "weekends", but not the word "weekdays".)
+
+    section Configurazione switch
+    Configurazione switch       : sw, 2023-02-28,1d
+
+    section Macchina virtuale
+    Creazione macchina virtuale : vm, 2023-02-27,1d
+    Configurazione FUSS server  : fuss_server, after vm, 5d
+    Installazione dei servizi   : services, after fuss_server, 10d
+
+
+    section Configurazione PC
+    Scrittura script per rimozione cartelle utenti: dels, 2023-02-29, 1d
+    Rimozione cartelle utenti non attivi : clean, 2023-03-07, 1d
+    Installazione Veyon Service : veyon, 2023-03-07, 1d
+    Installazione FUSS 11 Client: fuss_client, 2023-03-23, 1d
+
+

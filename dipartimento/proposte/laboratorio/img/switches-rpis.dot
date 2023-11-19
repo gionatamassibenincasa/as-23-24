@@ -1,0 +1,37 @@
+graph {
+    gw [shape=circle];
+    ts [shape=box label="Terminal\nserver"];
+    sw6 [shape=box];
+
+        sw1 [shape=box];
+        sw2 [shape=box];
+        sw3 [shape=box];
+        sw4 [shape=box];
+        sw5 [shape=box];
+
+    subgraph desktop_switches {
+        label="Switch per\nscrivania";
+        { rank=same  sw1 sw2 sw3 sw4 sw5 }
+    }
+
+    gw -- ts [label=eth0];
+    ts -- sw6 [label=eth1];
+
+    sw6 -- sw1;
+    sw6 -- sw2;
+    sw6 -- sw3;
+    sw6 -- sw4;
+    sw6 -- sw5;
+
+    sw1 -- RPi1;
+    sw1 -- RPi2;
+    sw1 -- RPi3;
+    sw1 -- RPi4;
+    sw1 -- RPi5;
+    sw1 -- RPi6;
+
+    NAS [shape=cylinder];
+    WiFi [shape=star label="WiFi\nHotspot"]
+    sw6 -- NAS;
+    sw6 -- WiFi
+}
