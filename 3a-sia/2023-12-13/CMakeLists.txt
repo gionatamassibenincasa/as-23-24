@@ -1,0 +1,1 @@
+add_executable(ciao_mondo ciao_mondo.cpp)
