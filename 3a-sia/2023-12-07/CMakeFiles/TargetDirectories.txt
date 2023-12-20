@@ -1,4 +1,0 @@
-/home/runner/as-23-24/3a-sia/2023-12-07/CMakeFiles/ridotto.dir
-/home/runner/as-23-24/3a-sia/2023-12-07/CMakeFiles/valori.dir
-/home/runner/as-23-24/3a-sia/2023-12-07/CMakeFiles/edit_cache.dir
-/home/runner/as-23-24/3a-sia/2023-12-07/CMakeFiles/rebuild_cache.dir
