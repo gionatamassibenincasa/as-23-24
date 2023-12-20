@@ -11,12 +11,19 @@ narrator: IT Italian Male
 
 comment:  
 
-import: https://raw.githubusercontent.com/liaTemplates/JSCPP/master/README.md
+import: import: https://raw.githubusercontent.com/LiaScript/CodeRunner/master/README.md
 -->
 
-# C++
+# C++ -- AS 2023-24 -- 3A Mod SIA
 
 Introduzione al linguaggio
+
+__Eseguilo su LiaScript:__
+
+<!-- hidden = "true" -->
+![demo](demo.gif)
+
+https://liascript.github.io/course/?https://raw.githubusercontent.com/gionatamassibenincasa/as-23-24/main/3a-sia/README.md
 
 
 ## Il programma più piccolo possibile
@@ -44,7 +51,7 @@ int main() {
     return 0;
 }
 ```
-@JSCPP.eval
+@LIA.cpp
 
 ## Ciao ...
 
@@ -62,10 +69,7 @@ int main() {
     return 0;
 }
 ```
-``` text +stdin
-Gionata
-```
-@JSCPP.evalWithStdin
+@LIA.cpp
 
 ## Somma di due numeri
 
@@ -81,4 +85,4 @@ int main() {
     return 0;
 }
 ```
-@JSCPP.eval
+@LIA.cpp
