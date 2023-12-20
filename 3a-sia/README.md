@@ -86,3 +86,6 @@ int main() {
 }
 ```
 @LIA.cpp
+
+
+<iframe width="800" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=%23include%20%3Ciostream%3E%0Ausing%20namespace%20std%3B%0A%0Aint%20main%28%29%20%7B%0A%20%20%20%20int%20a1%20%3D%204,%0A%20%20%20%20%20%20%20%20a2%20%3D%209,%0A%20%20%20%20%20%20%20%20s%20%3D%20a1%20%2B%20a2%3B%0A%20%20%20%20cout%20%3C%3C%20a1%20%3C%3C%20%22%20%2B%20%22%20%3C%3C%20a2%20%3C%3C%20%22%20%3D%20%22%20%3C%3C%20s%20%3C%3C%20endl%3B%0A%20%20%20%20return%200%3B%0A%7D&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=6&heapPrimitives=nevernest&origin=opt-frontend.js&py=cpp_g%2B%2B9.3.0&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
