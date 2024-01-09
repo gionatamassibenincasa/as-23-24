@@ -11,12 +11,23 @@ narrator: IT Italian Male
 
 comment:  Query SQL su Chinook
 
+import: https://raw.githubusercontent.com/liascript-templates/plantUML/master/README.md
+
 -->
 
 # Chinook - Esercizi SQL
 
 Alcuni semplici esecizi di scrittura
 di interrogazioni  sul database Chinook
+
+Per visualizzare la presentazione apri il link:
+https://liascript.github.io/course/?https://raw.githubusercontent.com/gionatamassibenincasa/as-23-24/main/5a-sia/Chinook-README.md
+
+```text @plantUML
+@startuml
+
+@enduml
+```
 
 ## Query semplici
 
@@ -141,4 +152,16 @@ di interrogazioni  sul database Chinook
   SELECT * 
   FROM Album
   WHERE ArtistaId = 50
+  ```
+## Join
+
+* Quali solo i formati utilizzati per almeno 200 delle tracce a catalogo?
+
+  ```sql
+  SELECT count(FM.nome) AS numeroTracce, FM.nome AS formato
+  FROM Traccia AS T
+   INNER JOIN FormatoMultimediale AS FM
+      USING (formatoMultimedialeId)
+  GROUP BY FM.formatoMultimedialeId
+  HAVING numeroTracce >= 200
   ```
