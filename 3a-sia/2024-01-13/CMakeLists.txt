@@ -1,0 +1,3 @@
+add_executable(sommaGaussWhile sommaGaussWhile.cpp)
+add_executable(sommaGaussFor sommaGaussFor.cpp)
+add_executable(sommaGaussDoWhile sommaGaussDoWhile.cpp)
