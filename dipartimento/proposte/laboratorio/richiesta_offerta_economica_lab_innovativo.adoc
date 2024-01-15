@@ -457,7 +457,7 @@ varie::
 Per un prospetto indicativo relativo alle componenti elettroniche sa veda la <<tab::dotazione>>.
 
 [[tab::dotazione]]
-[options="header,footer",format=tsv,cols="5,25,<63,>12,0,0,0,0"]
+[options="header,footer",format=tsv,cols="4,<40,>12,12,>16,>16"]
 .Ipotesi beni per realizzare il laboratorio
 |===
 include::distinta_lab_stem.tsv[]

@@ -1,4 +1,4 @@
-const toValue = (digits: string, base: number) : number => {
+export const toValue = (digits: string, base: number) : number => {
     digits = digits.toUpperCase();
     let v = 0;
     for(let i = 0; i < digits.length; i++) {
@@ -15,7 +15,7 @@ const toValue = (digits: string, base: number) : number => {
     return v;
 }
 
-const toBase = (n: number, base: number) : string => {
+export const toBase = (n: number, base: number) : string => {
     let ret = "";
     do  {
         const last = n % base;

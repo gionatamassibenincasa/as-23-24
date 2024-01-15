@@ -3,7 +3,7 @@ author:   Gionata Massi
 
 email:    gionata.massi@savoiabenicasa.it
 
-version:  2023-12-21
+version:  2023-12-27s
 
 language: it
 
@@ -29,9 +29,7 @@ https://liascript.github.io/course/?https://raw.githubusercontent.com/gionatamas
 
 > Programmare è capire
 >
-> Kristen Nygaard
-
-# Introduzione
+> Kristen Nygaarsd
 
 ## La programmazione e la comprensione
 
@@ -124,12 +122,12 @@ ridotto  ridotto.cpp  ridotto.ii  ridotto.o  ridotto.s
 cat ridotto.ii
 ```
 
-``` text, -ridotto.ii 
+``` text, ridotto.ii 
 # 0 "ridotto.cpp"
 # 0 "<built-in>"
 # 0 "<command-line>"
 # 1 "/usr/include/stdc-predef.h" 1 3 4
-# 0 "<command-line>" 2
+# 0 "<command-line>"
 # 1 "ridotto.cpp"
 
 int main() {}
@@ -139,7 +137,7 @@ int main() {}
 cat ridotto.s
 ```
 
-``` text, -ridotto.s
+``` text ridotto.s
         .file   "ridotto.cpp"
 # GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
 #       compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
@@ -195,6 +193,7 @@ main:
 Questa è una versione C++ del classico primo programma. Questo scrive "Ciao, Mondo!" sullo schermo.
 
 ``` c
+// Questo programma stampa a video il messaggio "Ciao, Mondo!"
 #include <iostream>
 
 int main() {
@@ -206,23 +205,76 @@ int main() {
 ```
 @LIA.cpp
 
+``` c
+// Per evitare le inclusioni nel C++ moderno si usano i moduli
+//
+// Compilare con:
+// g++ -std=c++20 -fmodules-ts -xc++-system-header iostream
+// g++ -fmodules-ts -std=c++20 -o ciao -O0 -fverbose-asm -save-temps ciao.cpp
+
+import <iostream>;
+
+int main() {
+    // Stampa "Ciao, Mondo!"
+    std::cout << "Ciao, Mondo!\n";
+
+    return 0;
+}
+```
+
+``` c
+// Per evitare le inclusioni nel C++ moderno si usano i moduli
+//
+// Compilare con:
+// g++ -std=c++20 -fmodules-ts -xc++-system-header iostream
+// g++ -fmodules-ts -std=c++20 -o ciao -O0 -fverbose-asm -save-temps ciao.cpp
+
+import std;
+
+int main() {
+    // Stampa "Ciao, Mondo!"
+    std::cout << "Ciao, Mondo!\n";
+
+    return 0;
+}
+```
+
 ## Ciao Mondo - esecuzione
 
-<iframe width="800" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=%23include%20%3Ciostream%3E%0A%0Aint%20main%28%29%20%7B%0A%20%20%20%20//%20Stampa%20%22Ciao,%20Mondo!%22%0A%20%20%20%20std%3A%3Acout%20%3C%3C%20%22Ciao,%20Mondo!%5Cn%22%3B%0A%0A%20%20%20%20return%200%3B%0A%7D&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=cpp_g%2B%2B9.3.0&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
+<iframe width="800" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=//%20Questo%20programma%20stampa%20a%20video%20il%20messaggio%20%22Ciao,%20Mondo!%22%0A%23include%20%3Ciostream%3E%0A%0Aint%20main%28%29%20%7B%0A%20%20%20%20//%20Stampa%20%22Ciao,%20Mondo!%22%0A%20%20%20%20std%3A%3Acout%20%3C%3C%20%22Ciao,%20Mondo!%5Cn%22%3B%0A%0A%20%20%20%20return%200%3B%0A%7D&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=cpp_g%2B%2B9.3.0&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
 
 ## Ciao Mondo - spiegazione della sintassi
-
 
 * L'operatore `<<` è detto *poni in* e scrive il secondo argomento sul primo.
 * `"Ciao Mondo!\n"` è un letterale stringa, una sequenza di caratteri racchiusa tra doppi apici, `'\n'` è carattere *newline*.
 * `std::` specifica lo spazio dei nomi.
 * `#include <iostream>` specifica al pre-elaboratore di includere le definizioni delle risorse presenti nel file `iostream` e in quelli da lui inclusi.
 * `int main()` precedere la definizione della funzione a partire dalla quale viene eseguito il programma. La definizione sarà descritta tra le parentesi `{` e `}`.
+* Le parentesi `{` e `}` esprimono il raggruppamento in C++.
 * `cout` è una risorsa che gestisce la scrittura sullo schermo. Viene pronunciato "si-out" ed è un'abbreviazione di *character output stream*.
 * `return 0` restituisce il controllo al sistema operativo comunicando il codice di errore 0, ovvero uscita con successo.
-* `// Stampa "Ciao, Mondo!"` è un commento
+* `// Stampa "Ciao, Mondo!"` è un commento che fornisce informazioni utili ad un essere umano ma è ignorato dal compilatore
+
+## Note sui primi programmi
+
+* Un programma è scritto per due lettori: i computer che devono eseguirlo e gli esseri umani che devono leggerlo, modificarlo, comprenderlo...
+* Scrivere codice in un linguaggio di alto livello è una forma di comunicazione tra esseri umani
+* L'essere umano è il principale destintario di un codice scritto in un linguaggio di alto livello
+* Il codice è scritto per essere letto, non solo eseguito
+* Le prime righe di un programma non banale, generalmente, sono commenti per esseri umani
+
+## I commenti
+
+* `// Questo programma stampa a video il messaggio "Ciao, Mondo!"` è un commento
+* Un programma dovrebbe iniziare con un commento che ne spiega sinteticamente quale è lo scopo
+* Tutto ciò che è scritto dopo il token ``//``, letto *slash slash* è un commento
+* I commenti sono indirizzati dagli esseri umani e sono ignorati dal compilatore
+
+
+
 
 ## Ciao ...
+
 
 ``` c
 #include <iostream>

@@ -1,16 +1,46 @@
 <script lang="ts">
+ const toValue = (digits: string, base: number) : number => {
+    digits = digits.toUpperCase();
+    let v = 0;
+    for(let i = 0; i < digits.length; i++) {
+        let d: number = digits.charCodeAt(i);
+        if (base <= 10 || d <= 58) {
+            d -= 48;
+        } else {
+            d -= 55;
+        }
+        if (d >= base || d < 0)
+            throw Error("Carattere non valido");
+        v = v * base + d;
+    }
+    return v;
+}
+
+ const toBase = (n: number, base: number) : string => {
+    let ret = "";
+    do  {
+        const last = n % base;
+        n = Math.floor(n / base);
+        if (last < 10) {
+            ret = String.fromCharCode(last +48) + ret;
+        } else {
+            ret = String.fromCharCode(last + 55) + ret;
+        }
+    } while (n > 0);
+    return ret;
+}
 	const generaInteroTra = (minimo: number, massimo: number) => {
 		return Math.floor(Math.random() * (massimo - minimo + 1) + minimo);
 	};
 	const numeroBinarioDiNCifre = (cifre: number): string => {
 		let numero = '1';
 		for (cifre--; cifre > 0; cifre--) numero += generaInteroTra(0, 1);
-		return numero + '<sub>2</sub>';
+		return numero + '';
 	};
 	const numeroDecimaleDiNCifre = (cifre: number): string => {
 		let numero: string = '' + generaInteroTra(1, 9);
 		for (cifre--; cifre > 0; cifre--) numero += generaInteroTra(0, 9);
-		return numero + '<sub>10</sub>';
+		return numero + '';
 	};
 
 	const cifraEsadecimale = (valore: number): string => {
@@ -27,9 +57,17 @@
 			numero += cifra;
 		}
 
-		return numero + '<sub>16</sub>';
+		return numero + '';
 	};
-	const studenti1E = JSON.parse(`[
+
+  interface Studente {
+    cognome: string;
+    nome: string;
+    classe: string;
+    argomenti? : any[];
+  }
+
+	const studenti1E : Studente[] = JSON.parse(`[
   {
     "cognome": "Ahmed",
     "nome": "Ansari",
@@ -172,7 +210,7 @@
   }
 ]`);
 
-	const studenti1F = JSON.parse(`[
+	const studenti1F  : Studente[]  = JSON.parse(`[
   {
     "cognome": "Andonaia",
     "nome": "Adamo",
@@ -294,58 +332,160 @@
     "classe": "1F"
   }
 ]`);
-	const classi = [
-		{ classe: '1E', studenti: studenti1E },
+
+interface Classe {
+  classe: string;
+  studenti: Studente[]
+}
+
+	const classi :Classe[] = [
+		// { classe: '1E', studenti: studenti1E },
 		{ classe: '1F', studenti: studenti1F }
 	];
+
+  interface Quesito {
+    domanda: string;
+    risposta: string;
+  }
+
+  const generaDomandaRispostaEs1 = (numeroDiCifreBinarie: number) : Quesito => {
+    const domanda = numeroBinarioDiNCifre(numeroDiCifreBinarie);
+    const risposta = "" + toValue(domanda, 2);
+    return {domanda: domanda + '<sub>2</sub>', risposta: risposta};
+  }
+
+  const generaQuesitiEs1 = (numeroDiCifreBinarie: number[]) : Quesito[] => {
+    let quesiti : Quesito[] = [];
+    let quesitiGenerati = new Set();
+    numeroDiCifreBinarie.forEach(n => {
+        let q = generaDomandaRispostaEs1(n);
+        while(quesitiGenerati.has(q.domanda)) {
+          q = generaDomandaRispostaEs1(n);
+        }
+        quesitiGenerati.add(q.domanda);
+        quesiti.push(q);
+    });
+    return quesiti;
+  }
+
+  const generaDomandaRispostaEs2 = (numeroDiCifreBinarie: number) : Quesito => {
+    const domanda = numeroBinarioDiNCifre(numeroDiCifreBinarie);
+    const risposta = "" + toBase(toValue(domanda, 2), 4);
+    return {domanda: domanda + '<sub>2</sub>', risposta: risposta + '<sub>4</sub>'};
+  }
+
+  const generaQuesitiEs2 = (numeroDiCifreBinarie: number[]) : Quesito[] => {
+    let quesiti : Quesito[] = [];
+    let quesitiGenerati = new Set();
+    numeroDiCifreBinarie.forEach(n => {
+        let q = generaDomandaRispostaEs2(n);
+        while(quesitiGenerati.has(q.domanda)) {
+          q = generaDomandaRispostaEs2(n);
+        }
+        quesitiGenerati.add(q.domanda);
+        quesiti.push(q);
+    });
+    return quesiti;
+  }
+
+  const generaDomandaRispostaEs3 = (numeroDiCifre: number) : Quesito => {
+    const domanda = numeroEsadecimaleDiNCifre(numeroDiCifre);
+    const risposta = "" + toBase(toValue(domanda, 16), 4);
+    return {domanda: domanda + '<sub>16</sub>', risposta: risposta + '<sub>4</sub>'};
+  }
+
+  const generaQuesitiEs3 = (numeroDiCifre: number[]) : Quesito[] => {
+    let quesiti : Quesito[] = [];
+    let quesitiGenerati = new Set();
+    numeroDiCifre.forEach(n => {
+        let q = generaDomandaRispostaEs3(n);
+        while(quesitiGenerati.has(q.domanda)) {
+          q = generaDomandaRispostaEs3(n);
+        }
+        quesitiGenerati.add(q.domanda);
+        quesiti.push(q);
+    });
+    return quesiti;
+  }
+
+  
+  const generaDomandaRispostaEs4 = (numeroDiCifre: number) : Quesito => {
+    const domanda = numeroDecimaleDiNCifre(numeroDiCifre);
+    const risposta = "" + toBase(toValue(domanda, 10), 8);
+    return {domanda: domanda, risposta: risposta + '<sub>8</sub>'};
+  }
+
+  const generaQuesitiEs4 = (numeroDiCifre: number[]) : Quesito[] => {
+    let quesiti : Quesito[] = [];
+    let quesitiGenerati = new Set();
+    numeroDiCifre.forEach(n => {
+        let q = generaDomandaRispostaEs4(n);
+        while(quesitiGenerati.has(q.domanda)) {
+          q = generaDomandaRispostaEs4(n);
+        }
+        quesitiGenerati.add(q.domanda);
+        quesiti.push(q);
+    });
+    return quesiti;
+  }
+
+  const generaDomandaRispostaEs5 = (numeroDiCifre: number) : Quesito => {
+    const domanda = numeroDecimaleDiNCifre(numeroDiCifre);
+    const risposta = "" + toBase(toValue(domanda, 10), 5);
+    return {domanda: domanda, risposta: risposta + '<sub>5</sub>'};
+  }
+
+  const generaQuesitiEs5 = (numeroDiCifre: number[]) : Quesito[] => {
+    let quesiti : Quesito[] = [];
+    let quesitiGenerati = new Set();
+    numeroDiCifre.forEach(n => {
+        let q = generaDomandaRispostaEs5(n);
+        while(quesitiGenerati.has(q.domanda)) {
+          q = generaDomandaRispostaEs5(n);
+        }
+        quesitiGenerati.add(q.domanda);
+        quesiti.push(q);
+    });
+    return quesiti;
+  }
+
+    const generaQuesiti = (numeroDiCifre: number[], generaDomandaRisposta: Function ) : Quesito[] => {
+    let quesiti : Quesito[] = [];
+    let quesitiGenerati = new Set();
+    numeroDiCifre.forEach(n => {
+        let q = generaDomandaRisposta(n);
+        while(quesitiGenerati.has(q.domanda)) {
+          q = generaDomandaRisposta(n);
+        }
+        quesitiGenerati.add(q.domanda);
+        quesiti.push(q);
+    });
+    return quesiti;
+  }
+
 
 	classi.forEach((c) => {
 		c.studenti.forEach((s) => {
 			s.argomenti = [
 				{
 					argomento: 'Converti da base 2 in base 10 i seguenti numeri:',
-					quesiti: [
-						numeroBinarioDiNCifre(3),
-						numeroBinarioDiNCifre(4),
-						numeroBinarioDiNCifre(5),
-						numeroBinarioDiNCifre(6)
-					]
+					quesiti: generaQuesiti([3,	4, 5,	6], generaDomandaRispostaEs1)
 				},
 				{
 					argomento: 'Converti da base 2 in base 4 i seguenti numeri',
-					quesiti: [
-						numeroBinarioDiNCifre(3),
-						numeroBinarioDiNCifre(4),
-						numeroBinarioDiNCifre(5),
-						numeroBinarioDiNCifre(6)
-					]
+					quesiti: generaQuesiti([4,	5, 6,	7], generaDomandaRispostaEs2)
 				},
 				{
 					argomento: 'Converti da base 16 in base 4 i seguenti numeri',
-					quesiti: [
-						numeroEsadecimaleDiNCifre(1),
-						numeroEsadecimaleDiNCifre(2),
-						numeroEsadecimaleDiNCifre(2),
-						numeroEsadecimaleDiNCifre(3)
-					]
+					quesiti: generaQuesiti([1, 2, 3, 4], generaDomandaRispostaEs3)
 				},
 				{
-					argomento: 'Converti in base 4 i seguenti numeri',
-					quesiti: [
-						numeroDecimaleDiNCifre(2),
-						numeroDecimaleDiNCifre(2),
-						numeroDecimaleDiNCifre(2),
-						numeroDecimaleDiNCifre(3)
-					]
+					argomento: 'Converti in base 8 i seguenti numeri',
+					quesiti: generaQuesiti([2, 2, 2, 3], generaDomandaRispostaEs4)
 				},
 				{
-					argomento: 'Converti in base 7 i seguenti numeri',
-					quesiti: [
-						numeroDecimaleDiNCifre(2),
-						numeroDecimaleDiNCifre(2),
-						numeroDecimaleDiNCifre(3),
-						numeroDecimaleDiNCifre(3)
-					]
+					argomento: 'Converti in base 5 i seguenti numeri',
+					quesiti: generaQuesiti([2, 2, 2, 3], generaDomandaRispostaEs5)
 				}
 			];
 		});
@@ -360,7 +500,7 @@
 					><span class="maiuscoletto">{s.cognome}</span>
 					{s.nome}</strong
 				>, Classe {s.classe}, pos. registro n. {i + 1}<br />
-				Verifica di Informatica &mdash; 21 dicembre 2023<br>
+				Verifica di Informatica &mdash; 15 gennaio 2024<br>
         &nbsp;
 			</div>
 		</header>
@@ -370,7 +510,7 @@
 					<div class="neretto">{a_idx + 1}. {a.argomento}</div>
 					<div class="grid">
 						{#each a.quesiti as q, q_idx}
-							<div>{@html q} = __________</div>
+							<div><span class="domanda">{@html q.domanda}</span> = ______________________________________________________</div>
 						{/each}
 					</div>
 					<!-- quesiti -->
@@ -380,11 +520,40 @@
 		</main>
 
 		<footer>
-			Es. corretti: ____/20; Percentuale: ______ %; Voto: ____; Firma per presa visione:
-			________________
+			# Esercizi corretti: ______/20; Percentuale: ______ %; Voto: ______;<br><br> Firma per presa visione:
+			____________________________________________
 		</footer>
 	{/each}
 	<!-- studenti -->
+
+  <div id="soluzioni">
+  <!-- Correzione -->
+  	{#each c.studenti as s, i}
+		<div>
+				<strong
+					><span class="maiuscoletto">{s.cognome}</span>
+					{s.nome}</strong
+				>, Classe {s.classe}, pos. registro n. {i + 1}
+			</div>
+		<div class="container-fluid">
+			{#each s.argomenti as a, a_idx}
+				<section>
+					<div class="neretto">{a_idx + 1}. {a.argomento}</div>
+					<div class="grid">
+						{#each a.quesiti as q, q_idx}
+							<div>{@html q.domanda} = {@html q.risposta}</div>
+						{/each}
+					</div>
+					<!-- quesiti -->
+				</section>
+			{/each}
+			<!-- argomenti -->
+      </div>
+
+		{/each}
+	<!-- studenti -->
+  </div>
+
 {/each}
 
 <!-- classi -->
@@ -400,5 +569,29 @@
 		footer {
 			page-break-after: always;
 		}
+
+    #soluzioni div.grid {
+      width: 17.50cm;
+      --border: 1px solid green;
+      display: inline-block;
+
+    }
+    #soluzioni div.grid  div {
+      box-sizing: border-box;
+      display: inline-block;
+      --border: 1px solid red;
+      width: 4.35cm;
+      height: 0.75cm;
+    }
+
+    .domanda {
+      box-sizing: border-box;
+      display: inline-block;
+      text-align: right;
+      width: 2cm;
+      --border: 1px solid red;
+    }
+
 	}
+
 </style>
