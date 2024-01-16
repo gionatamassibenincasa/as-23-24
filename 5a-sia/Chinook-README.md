@@ -484,3 +484,87 @@ WHERE
     C.nome = 'Daan' AND C.cognome = 'Peeters'
 GROUP BY F.fatturaId
 ```
+
+```sql
+-- Determinare, per ogni dipendente,
+-- il numero di clienti assistiti
+SELECT D.nome, D.cognome, count(clienteId)
+FROM
+    Dipendente AS D INNER JOIN
+    Cliente ON dipendenteId = assistenteId
+GROUP BY dipendenteId
+```
+
+```sql
+-- Per ogni dipendente e per ogni genere, determinare
+-- il numero di tracce acquistate dai clienti assistiti
+SELECT D.nome, D.cognome,
+       G.nome AS genereMusicale,
+       count(T.tracciaId) AS numeroTracce
+FROM Dipendente AS D
+        INNER JOIN Cliente AS C
+           ON D.dipendenteId = C.assistenteId
+        INNER JOIN Fattura AS F
+           ON C.clienteId = F.clienteId
+        INNER JOIN LineaFattura AS LF
+           ON F.fatturaId = LF.fatturaId
+        INNER JOIN Traccia AS T
+           ON LF.tracciaId = T.tracciaId
+        INNER JOIN Genere AS G
+           ON T.genereId = G.genereId
+GROUP BY dipendenteId, G.genereId
+```
+
+```sql
+-- Per ogni dipendente e per ogni formato, determinare
+-- il numero di tracce acquistate dai clienti assistiti
+SELECT D.nome, D.cognome,
+       FM.nome AS formatoMultimediale,
+       count(T.tracciaId) AS numeroTracce
+FROM Dipendente AS D
+        INNER JOIN Cliente AS C
+           ON D.dipendenteId = C.assistenteId
+        INNER JOIN Fattura AS F
+           ON C.clienteId = F.clienteId
+        INNER JOIN LineaFattura AS LF
+           ON F.fatturaId = LF.fatturaId
+        INNER JOIN Traccia AS T
+           ON LF.tracciaId = T.tracciaId
+        INNER JOIN FormatoMultimediale AS FM
+           ON T.formatoMultimedialeId = FM.formatoMultimedialeId
+GROUP BY dipendenteId, FM.formatoMultimedialeId
+```
+
+```sql
+-- Determina il numero di tracce vendute
+-- raggruppate per anno solare e
+-- per nazione dell'acquirente
+SELECT C.nazione,
+    substring(F.dataFatturazione,1,4) AS anno,
+    count(T.tracciaId) AS numeroTracce
+FROM
+    Cliente AS C
+        INNER JOIN Fattura AS F USING (clienteId)
+        INNER JOIN LineaFattura AS LF USING (fatturaId)
+        INNER JOIN Traccia AS T USING (tracciaId)
+GROUP BY nazione, anno
+ORDER BY nazione, anno
+```
+
+```sql
+-- Determina il numero di tracce vendute
+-- raggruppate per anno solare,
+-- per nazione dell'acquirente e genere
+SELECT C.nazione,
+    substring(F.dataFatturazione,1,4) AS anno,
+    G.nome as genereMusicale,
+    count(T.tracciaId) AS numeroTracce
+FROM
+    Cliente AS C
+        INNER JOIN Fattura AS F USING (clienteId)
+        INNER JOIN LineaFattura AS LF USING (fatturaId)
+        INNER JOIN Traccia AS T USING (tracciaId)
+        INNER JOIN Genere AS G USING (genereId)
+GROUP BY nazione, anno, genereMusicale
+ORDER BY nazione, anno, genereMusicale
+```
