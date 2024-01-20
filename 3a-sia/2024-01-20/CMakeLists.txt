@@ -1,0 +1,1 @@
+add_executable(operatori_1 operatori_1.cpp)
