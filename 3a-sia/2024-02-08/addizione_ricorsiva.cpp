@@ -2,16 +2,6 @@
 using namespace std;
 
 /**
- * @brief Calcola il quadrato di un numero
- * 
- * @param x Il numero da elevare al quadrato
- * @return Il quadrato dell'argomento
- */
-double quadrato(double x) {
-    return x * x;
-}
-
-/**
  * @brief Incrementa il numero di input di 1
  * 
  * @param n Il numero da incrementare
@@ -40,9 +30,15 @@ int decrementa(int n) {
 bool zero(int n) {
   return (n == 0);
 }
-
+/**
+ * @brief Addiziona due numeri ricorsivamente
+ * 
+ * @param n Il primo numero
+ * @param m Il secondo numero
+ * @return La somma dei due numeri
+ */
 int addizione(int n, int m) {
-  if (m == 0)
+  if (zero(m))
     return n;
   return addizione(incrementa(n), decrementa(m));
 }

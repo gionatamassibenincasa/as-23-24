@@ -1,2 +1,2 @@
 add_executable(fattoriale_ricorsivo fattoriale_ricorsivo.cpp)
-add_executable(esercizi esercizi.cpp)
+add_executable(addizione_ricorsiva addizione_ricorsiva.cpp)
