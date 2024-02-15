@@ -42,8 +42,16 @@ double somma_quadrati(double x, double y) {
   return quadrato(x) + quadrato(y);
 }
 
+/**
+ * Calcola la distanza euclidea tra due punti
+ * @param x1 coordinate x del primo punto
+ * @param y1 coordinate y del primo punto
+ * @param x2 coordinate x del secondo punto
+ * @param y2 coordinate y del secondo punto
+ * @return la distanza euclidea tra i due punti
+ */
 double distanza(double x1, double y1, double x2, double y2) {
-  return radq(somma_quadrati(x2 - x1, y2 - y1));
+    return radq(somma_quadrati(x2 - x1, y2 - y1));
 }
 
 int main() {
