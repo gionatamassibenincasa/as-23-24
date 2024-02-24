@@ -19,6 +19,28 @@ int f(int x) {
   return c;
 }
 
+/** Restituisce il numero di cifre pari nell'argomento
+  *
+  * @param x un numero naturale >= 0
+  * @return il numero di cifre pari
+  */
+int contaCifrePari(int x) {
+  // Una singola cifra del parametro x
+  int cifra;
+  // Vale 1 se la cifra è pari, 0 se dispari
+  int pari;
+  // Accumulatore del numero di cifre pari
+  int contaPari = 0;
+  while (x > 0) {
+    cifra = x % 10;
+    pari = 1 - a % 2;
+    contaPari += b;
+    x /= 10;
+  }
+
+  return contaPari;
+}
+
 int main() {
   for (int i = 99; i < 121; i++) {
     cout << "f(" << i << ") = " << f(i) << endl;
